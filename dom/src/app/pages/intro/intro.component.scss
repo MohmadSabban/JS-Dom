@@ -1,0 +1,25 @@
+h1 {
+  margin: 1rem 0 0 1rem;
+  cursor: pointer;
+}
+
+div {
+  cursor: pointer;
+}
+#name {
+  width: 100px;
+  height: 10px;
+  border: 2px solid black;
+}
+
+// Dynamic class
+.bg {
+  background-color: red;
+}
+.bg::after {
+  content: none;
+}
+
+.data {
+  background-color: green;
+}
