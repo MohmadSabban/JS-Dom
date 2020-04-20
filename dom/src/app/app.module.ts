@@ -8,6 +8,9 @@ import { SelectorComponent } from './pages/selector/selector.component';
 import { TraversalComponent } from './pages/traversal/traversal.component';
 import { CreateElementsComponent } from './pages/create-elements/create-elements.component';
 import { AppendChildComponent } from './pages/append-child/append-child.component';
+import { InsertComponent } from './pages/insert/insert.component';
+import { MoveElementsComponent } from './pages/move-elements/move-elements.component';
+import { ScrollingComponent } from './pages/scrolling/scrolling.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { AppendChildComponent } from './pages/append-child/append-child.componen
     SelectorComponent,
     TraversalComponent,
     CreateElementsComponent,
-    AppendChildComponent
+    AppendChildComponent,
+    InsertComponent,
+    MoveElementsComponent,
+    ScrollingComponent
   ],
   imports: [
     BrowserModule,
