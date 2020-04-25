@@ -15,3 +15,50 @@ body {
 .list {
   margin: 0.5rem;
 }
+
+.todo-list {
+  background-color: white;
+  display: flex;
+  height: 40px;
+  margin-bottom: 1rem;
+  transition: all 500ms ease;
+  div {
+    flex-grow: 1;
+    align-self: center;
+    padding-left: 1rem;
+  }
+  .check {
+    background-color: rgb(38, 192, 38);
+    color: whitesmoke;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    width: 40px;
+    i {
+      font-size: 22px;
+      pointer-events: none;
+    }
+  }
+  .delete {
+    background-color: rgb(233, 116, 6);
+    cursor: pointer;
+    outline: none;
+    border: none;
+    width: 40px;
+    color: whitesmoke;
+    i {
+      font-size: 22px;
+      pointer-events: none;
+    }
+  }
+}
+
+.del {
+  transform: translateY(8rem) rotateZ(20deg);
+  opacity: 0;
+}
+
+.complete {
+  text-decoration: line-through;
+  opacity: 0.5;
+}

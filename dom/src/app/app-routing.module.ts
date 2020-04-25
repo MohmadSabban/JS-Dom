@@ -8,6 +8,10 @@ import { AppendChildComponent } from "./pages/append-child/append-child.componen
 import { InsertComponent } from "./pages/insert/insert.component";
 import { MoveElementsComponent } from "./pages/move-elements/move-elements.component";
 import { ScrollingComponent } from "./pages/scrolling/scrolling.component";
+import { SliceComponent } from "./pages/slice/slice.component";
+import { IntroductionComponent } from "./js/introduction/introduction.component";
+import { TodoListComponent } from "./js/todo-list/todo-list.component";
+import { ArrayComponent } from "./js/array/array.component";
 
 const routes: Routes = [
   { path: "", component: IntroComponent },
@@ -18,6 +22,10 @@ const routes: Routes = [
   { path: "insert", component: InsertComponent },
   { path: "remove", component: MoveElementsComponent },
   { path: "scrolling", component: ScrollingComponent },
+  { path: "slice", component: SliceComponent },
+  { path: "intro", component: IntroductionComponent },
+  { path: "todo", component: TodoListComponent },
+  { path: "array", component: ArrayComponent },
 ];
 
 @NgModule({
