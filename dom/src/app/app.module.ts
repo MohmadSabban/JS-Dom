@@ -15,6 +15,7 @@ import { SliceComponent } from "./pages/slice/slice.component";
 import { IntroductionComponent } from './js/introduction/introduction.component';
 import { TodoListComponent } from './js/todo-list/todo-list.component';
 import { ArrayComponent } from './js/array/array.component';
+import { BeatMakerComponent } from './js/beat-maker/beat-maker.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { ArrayComponent } from './js/array/array.component';
     IntroductionComponent,
     TodoListComponent,
     ArrayComponent,
+    BeatMakerComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

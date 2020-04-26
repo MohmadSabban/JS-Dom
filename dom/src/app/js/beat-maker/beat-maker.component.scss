@@ -1,0 +1,55 @@
+section {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  main {
+    display: flex;
+    div {
+      width: 8rem;
+      height: 8rem;
+      margin: 2rem;
+      background-color: red;
+      border-radius: 8px;
+    }
+  }
+  button {
+    justify-self: center;
+    align-self: center;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    background: rgb(105, 103, 103);
+    position: relative;
+    outline: none;
+    transition: all 400ms ease-in-out;
+    i {
+      pointer-events: none;
+      color: whitesmoke;
+    }
+  }
+
+  button:hover::after {
+    content: "play";
+    position: absolute;
+    bottom: 0rem;
+    left: 1.2rem;
+    font-size: 16px;
+    color: white;
+  }
+  button:hover {
+    background-color: rgb(175, 169, 169);
+    box-shadow: 1px 1px 1px 1px grey, inset 4px 2px 2px 2px grey;
+  }
+}
+
+@keyframes playtrack {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+}

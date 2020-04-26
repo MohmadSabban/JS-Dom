@@ -12,6 +12,7 @@ import { SliceComponent } from "./pages/slice/slice.component";
 import { IntroductionComponent } from "./js/introduction/introduction.component";
 import { TodoListComponent } from "./js/todo-list/todo-list.component";
 import { ArrayComponent } from "./js/array/array.component";
+import { BeatMakerComponent } from "./js/beat-maker/beat-maker.component";
 
 const routes: Routes = [
   { path: "", component: IntroComponent },
@@ -26,6 +27,7 @@ const routes: Routes = [
   { path: "intro", component: IntroductionComponent },
   { path: "todo", component: TodoListComponent },
   { path: "array", component: ArrayComponent },
+  { path: "beat", component: BeatMakerComponent },
 ];
 
 @NgModule({
